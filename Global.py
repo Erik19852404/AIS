@@ -7,8 +7,8 @@ from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-pathLog = 'D:\\Git\\WebTests\\Logs\\LogDebug.txt'
-pathChromeDriver = r'D:\Git\WebTests\Drivers\chromedriver.exe'
+pathLog = 'D:\\AIS\\AutoTests\\AIS\Logs\\LogDebug.txt'
+pathChromeDriver = r'D:\\AIS\\AutoTests\\AIS\\Drivers\\chromedriver.exe'
 driver = None
 
 def RemoveOldLogs(logPaths):
