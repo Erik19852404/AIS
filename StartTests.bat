@@ -1,1 +1,1 @@
-start C:\Users\erik\AppData\Local\Programs\Python\Python39\python.exe -m unittest TestCasesLogin.TestCaseKitchenAuthorization
+start C:\Users\erik\AppData\Local\Programs\Python\Python39\python.exe -m unittest TestCasesLogin.TestCaseAuthorization
