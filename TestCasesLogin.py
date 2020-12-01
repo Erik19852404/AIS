@@ -79,7 +79,7 @@ class TestCaseAuthorization(unittest.TestCase):
 
     def Login(self, userLogin, userPassword):
         result = testResult['Unknown']
-        login = self.GetElement('byXPath', '//*[@id="username2"]', 'Login field')
+        login = self.GetElement('byXPath', '//*[@id="username"]', 'Login field')
         password = self.GetElement('byXPath', '//*[@id="password"]', 'Password field')
         btnEnter = self.GetElement('byXPath', '//*[@id="login"]', 'Confirm button')
         if login != None and password != None and btnEnter != None:
